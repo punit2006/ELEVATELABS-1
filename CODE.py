@@ -39,6 +39,6 @@ if 'age' in df.columns:
 
 # Save cleaned data
 df.to_csv("cleaned_marketing_campaign.csv", index=False)
-print("\n✅ Cleaning complete!")
+print("\nCleaning complete!")
 print("Final shape:", df.shape)
 print("Remaining missing values:\n", df.isnull().sum())
